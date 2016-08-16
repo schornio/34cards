@@ -2,8 +2,9 @@
   "name": "34cards",
   "version": "0.0.0",
   "description": "34 cards to describe every human being individually",
-  "main": "index.js",
+  "main": "server/index.js",
   "scripts": {
+    "start": "node server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/schornio/34cards/issues"
   },
-  "homepage": "https://github.com/schornio/34cards#readme"
+  "homepage": "https://github.com/schornio/34cards#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "express": "^4.14.0"
+  }
 }
