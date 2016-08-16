@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 0.3em;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.state {
+  display: none;
+
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  float: left;
+
+  display: table;
+
+  width: 50%;
+  height: 100%;
+}
+
+.card h2 {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#state-1 .container {
+    display: table;
+
+    width: 100%;
+    height: 100%;
+}
+
+#state-1 .content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#left-card {
+  background: hsl(50, 50%, 80%);
+}
+
+#right-card {
+  background: hsl(150, 50%, 80%);
+}
+
+#card-process {
+  position: absolute;
+  bottom: 2em;
+
+  width: 100%;
+
+  text-align: center;
+}
+
+#card-process .content {
+  display: inline;
+  padding: 1em;
+
+  background: white;
+}
+
+#dna-table {
+  width: 96%;
+  max-width: 600px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+#dna-table .dna-element {
+  display: inline-block;
+  width: 8%;
+  height: 50px;
+}
