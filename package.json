@@ -1,0 +1,19 @@
+{
+  "name": "34cards",
+  "version": "0.0.0",
+  "description": "34 cards to describe every human being individually",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schornio/34cards.git"
+  },
+  "author": "Thomas Schorn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schornio/34cards/issues"
+  },
+  "homepage": "https://github.com/schornio/34cards#readme"
+}
