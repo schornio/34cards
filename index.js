@@ -13,6 +13,10 @@ app.get('/', (request, response) => {
   response.sendFile(`${__dirname}/app/index.html`);
 });
 
+let dependencies = {};
+
+app.use('/cards', require('./controller/cards')(dependencies));
+
 app.listen(PORT, () => {
   console.log(`${pkg.name}v${pkg.version} listening on Port ${PORT}`);
 });
